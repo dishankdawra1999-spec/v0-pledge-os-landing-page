@@ -43,7 +43,7 @@ export default function Home() {
                 </Link>
               </nav>
               <Button asChild size="sm">
-                <a href="http://localhost:3000/auth/google">Connect Gmail</a>
+                <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <Button size="lg" className="w-full sm:w-auto text-base px-8 h-12" asChild>
-                <a href="http://localhost:3000/auth/google">Connect Gmail</a>
+                <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
             <p className="text-sm text-muted-foreground flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
@@ -304,7 +304,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <Button className="w-full h-12 text-base bg-transparent" variant="outline" asChild>
-                  <a href="http://localhost:3000/auth/google">Connect Gmail</a>
+                  <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
                 </Button>
               </div>
             </Card>
@@ -446,7 +446,7 @@ export default function Home() {
               Connect your Gmail in 30 seconds. Get your first reminder tomorrow morning.
             </p>
             <Button size="lg" className="text-base px-8 h-12" asChild>
-              <a href="http://localhost:3000/auth/google">Connect Gmail</a>
+              <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
             </Button>
           </div>
         </div>
