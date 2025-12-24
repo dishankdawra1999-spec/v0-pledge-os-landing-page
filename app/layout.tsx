@@ -1,11 +1,3 @@
-export const metadata = {
-title: "PledgeOS",
-description: "AI-powered promise and commitment tracking via Gmail",
-verification: {
-google: "<meta name="google-site-verification" content="A0OEg0pqEj6EVVA-DpUyaHeYAgOJKKdsxd0irFM_oLY" />",
-    generator: 'v0.app'
-},
-};
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -19,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "AI-powered commitment tracking for Gmail. Detects promises, sends daily reminders, prevents execution gaps. $5/month. No free plan.",
   generator: "v0.app",
+  verification: {
+    google: "A0OEg0pqEj6EVVA-DpUyaHeYAgOJKKdsxd0irFM_oLY"
+  },
   icons: {
     icon: [
       {
