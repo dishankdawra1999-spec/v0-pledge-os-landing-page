@@ -11,23 +11,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
-              <svg className="h-9 w-9" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="10" y="10" width="80" height="80" rx="16" fill="url(#pledgeGrad)" />
-                <path
-                  d="M35 45L45 55L65 35"
-                  stroke="white"
-                  strokeWidth="8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <circle cx="50" cy="70" r="4" fill="white" />
-                <defs>
-                  <linearGradient id="pledgeGrad" x1="10" y1="10" x2="90" y2="90">
-                    <stop offset="0%" stopColor="#0EA5E9" />
-                    <stop offset="100%" stopColor="#06B6D4" />
-                  </linearGradient>
-                </defs>
-              </svg>
+              <img src="/pledgeos-logo.png" alt="PledgeOS Logo" className="h-10 w-10" />
               <span className="text-xl font-bold text-foreground">PledgeOS</span>
             </Link>
             <div className="flex items-center gap-4">
@@ -42,7 +26,7 @@ export default function Home() {
                   Security
                 </Link>
               </nav>
-              <Button asChild size="sm">
+              <Button asChild size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90">
                 <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
@@ -457,23 +441,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
-              <svg className="h-8 w-8" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="10" y="10" width="80" height="80" rx="16" fill="url(#pledgeGrad)" />
-                <path
-                  d="M35 45L45 55L65 35"
-                  stroke="white"
-                  strokeWidth="8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <circle cx="50" cy="70" r="4" fill="white" />
-                <defs>
-                  <linearGradient id="pledgeGrad" x1="10" y1="10" x2="90" y2="90">
-                    <stop offset="0%" stopColor="#0EA5E9" />
-                    <stop offset="100%" stopColor="#06B6D4" />
-                  </linearGradient>
-                </defs>
-              </svg>
+              <img src="/pledgeos-logo.png" alt="PledgeOS Logo" className="h-8 w-8" />
               <span className="text-lg font-bold text-foreground">PledgeOS</span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-muted-foreground">
