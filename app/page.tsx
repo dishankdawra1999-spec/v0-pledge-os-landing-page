@@ -51,20 +51,6 @@ export default function Home() {
                 <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-              <span className="flex items-center gap-2">
-                <Shield className="h-4 w-4" />
-                Read-only access
-              </span>
-              <span className="flex items-center gap-2">
-                <Check className="h-4 w-4" />
-                No permanent storage
-              </span>
-              <span className="flex items-center gap-2">
-                <Clock className="h-4 w-4" />
-                Revoke anytime
-              </span>
-            </p>
           </div>
         </div>
       </section>
