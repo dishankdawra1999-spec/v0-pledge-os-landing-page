@@ -26,8 +26,8 @@ export default function Home() {
                   Security
                 </Link>
               </nav>
-              <Button asChild size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90">
-                <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
+              <Button size="lg" className="bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
+                <a href="https://noon-fingers-basement-src.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
           </div>
@@ -47,8 +47,11 @@ export default function Home() {
               input.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-              <Button size="lg" className="w-full sm:w-auto text-base px-8 h-12" asChild>
-                <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
+              <Button
+                size="lg"
+                className="w-full sm:w-auto text-base px-8 h-12 bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]"
+              >
+                <a href="https://noon-fingers-basement-src.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
           </div>
@@ -273,8 +276,8 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full h-12 text-base bg-transparent" variant="outline" asChild>
-                  <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
+                <Button className="w-full h-12 text-base bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
+                  <a href="https://noon-fingers-basement-src.trycloudflare.com/auth/google">Connect Gmail</a>
                 </Button>
               </div>
             </Card>
@@ -308,7 +311,7 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full h-12 text-base" disabled>
+                <Button className="w-full h-12 text-base bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]" disabled>
                   Coming Soon
                 </Button>
               </div>
@@ -343,7 +346,7 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full h-12 text-base bg-transparent" variant="outline" disabled>
+                <Button className="w-full h-12 text-base bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]" disabled>
                   Coming Soon
                 </Button>
               </div>
@@ -415,8 +418,8 @@ export default function Home() {
             <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
               Connect your Gmail in 30 seconds. Get your first reminder tomorrow morning.
             </p>
-            <Button size="lg" className="text-base px-8 h-12" asChild>
-              <a href="https://metabolism-racial-katrina-calculator.trycloudflare.com/auth/google">Connect Gmail</a>
+            <Button size="lg" className="text-base px-8 h-12 bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
+              <a href="https://noon-fingers-basement-src.trycloudflare.com/auth/google">Connect Gmail</a>
             </Button>
           </div>
         </div>
