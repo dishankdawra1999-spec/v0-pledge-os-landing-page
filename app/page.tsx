@@ -27,7 +27,7 @@ export default function Home() {
                 </Link>
               </nav>
               <Button size="lg" className="bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
-                <a href="https://fair-livestock-testimonials-completed.trycloudflare.com/auth/google">Connect Gmail</a>
+                <a href="https://watershed-nonprofit-sol-solar.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
                 size="lg"
                 className="w-full sm:w-auto text-base px-8 h-12 bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]"
               >
-                <a href="https://fair-livestock-testimonials-completed.trycloudflare.com/auth/google">Connect Gmail</a>
+                <a href="https://watershed-nonprofit-sol-solar.trycloudflare.com/auth/google">Connect Gmail</a>
               </Button>
             </div>
           </div>
@@ -277,9 +277,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <Button className="w-full h-12 text-base bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
-                  <a href="https://fair-livestock-testimonials-completed.trycloudflare.com/auth/google">
-                    Connect Gmail
-                  </a>
+                  <a href="https://watershed-nonprofit-sol-solar.trycloudflare.com/auth/google">Connect Gmail</a>
                 </Button>
               </div>
             </Card>
@@ -421,7 +419,7 @@ export default function Home() {
               Connect your Gmail in 30 seconds. Get your first reminder tomorrow morning.
             </p>
             <Button size="lg" className="text-base px-8 h-12 bg-[#C9A961] hover:bg-[#B8984F] text-[#1A2B4A]">
-              <a href="https://fair-livestock-testimonials-completed.trycloudflare.com/auth/google">Connect Gmail</a>
+              <a href="https://watershed-nonprofit-sol-solar.trycloudflare.com/auth/google">Connect Gmail</a>
             </Button>
           </div>
         </div>
